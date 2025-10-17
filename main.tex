@@ -1,0 +1,156 @@
+%-------------------------
+% Resume in Latex
+% Author : Oliver Baccay
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\input{particulars}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{empty}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure machine readable PDF
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands (slightly larger bullet spacing)
+\setlist[itemize]{itemsep=2pt, topsep=2pt, parsep=0pt, partopsep=0pt}
+
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+  \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & #4 \\
+  \end{tabular*}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+    #1 & #2\\
+  \end{tabular*}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in, label=$\bullet$]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+\begin{document}
+
+% Contact Information
+\begin{center}
+    {\Huge \scshape Oliver Baccay} \\ \vspace{1pt}
+    \small 
+    \raisebox{-0.1\height}\faPhone\ (914)-924-6547 ~ 
+    \href{mailto:baccay.o@northeastern.edu}{\raisebox{-0.2\height}\faEnvelope\  \underline{baccay.o@northeastern.edu}} 
+    \href{https://github.com/ollieb216}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/ollieb216}} ~
+    \href{https://linkedin.com/in/oliverbaccay}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/oliverbaccay}} 
+    
+    {Availability: May – December 2026}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading{Northeastern University}{Boston, MA}{B.S. Mathematics, Minor: Data Science}{May 2028}
+    \resumeItemListStart
+        \resumeItem{GPA: 4.0/4.0}
+        \resumeItem{Relevant Coursework: Probability and Statistics, Macroeconomics, Advanced Programming with Data, Business Statistics, Calculus III, Differential Equations \& Linear Algebra, Foundations of Data Science, Physics II}
+    \resumeItemListEnd
+    
+    \resumeSubheading{Northeastern University London}{London, UK}{Year-Long Study Abroad}{Sep 2024 - May 2025}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Relevant Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading{Nicolaysen Insurance Agency}{Chappaqua, NY}{Insurance Intern}{July 2025 - Aug 2025}
+    \resumeItemListStart
+        \resumeItem{Improved quoting efficiency by 66\% by centralizing initial quotes, reducing required staff while maintaining output.}
+        \resumeItem{Generated 25+ personal line quotes by analyzing risk profiles and comparing carrier pricing, identifying cost-saving options.}
+        \resumeItem{Audited 200+ client files in Applied Epic and Excel, ensuring policy data accuracy, renewals, cancellations, $\&$ modifications.}
+    \resumeItemListEnd
+
+    \resumeSubheading{Sarah Lawrence College}{Bronxville, NY}{Physics Research Intern (Nuclear Magnetic Resonance, NMR)}{May 2024 - Aug 2024}
+    \resumeItemListStart
+        \resumeItem{Conducted T1 \& T2/T2* relaxation experiments using benchtop NMR to collect Magnetic Resonance signal datasets.}
+        \resumeItem{Analyzed experimental data via Fourier transforms in Excel, creating detailed visualizations for research documentation.}
+        \resumeItem{Applied quantum mechanical principles to analyze complex signal transformations across frequency and time domains.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------LEADERSHIP AND INVOLVEMENT-----------
+\section{Leadership and Involvement}
+{\small \textbf{Algorithmic Investments \& Quantitative Solutions}} \textbar\ \textit{Co-Vice President \& Researcher} \hfill Sept 2025 - Present \\
+{\small \textbf{The Actuarial Club}} \textbar\ \textit{Active Member} \hfill Sept 2025 - Present \\
+{\small \textbf{DATA Club}} \textbar\ \textit{Snowball Program} \hfill Sept 2025 - Present \\
+{\small \textbf{Northeastern London STEM Society}} \textbar\ \textit{Co-Founder \& Secretary} \hfill Sept 2024 - May 2025
+
+%-----------ACTUARIAL EXAMS-----------
+\section{Actuarial Exams}
+\resumeSubHeadingListStart
+    \resumeItemListStart
+        \resumeItem{Exam P (Probability) \hfill Sitting -  Jan 2026}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Relevant Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading{\href{https://github.com/ollieb216/ollie-baccay/tree/main/shiny}{\textcolor{NavyBlue}{\underline{\textbf{Life Insurance Premium Estimation Calculator}}}} $|$ \textit{Python, Shiny, NumPy} \href{https://github.com/ollieb216/ollie-baccay/tree/main/shiny}{}}{Sep 2025}
+    \resumeItemListStart
+        \resumeItem{Developed an interactive Shiny app to estimate life insurance premiums by modeling mortality probabilities from age, BMI, sex, and nicotine use, incorporating actuarial-style loadings and risk adjustments to calculate the death benefit.}
+        \resumeItem{Implemented a dynamic interface to enable real-time premium updates, simulating practical pricing tools.}
+    \resumeItemListEnd
+
+\resumeProjectHeading{\href{https://github.com/ollieb216/Music-Genre-Classifier}{\textcolor{NavyBlue}{\underline{\textbf{Music Genre Classification Model}}}} $|$ \textit{Python, scikit-learn, XGBoost, seaborn, matplotlib, pandas} \href{https://github.com/ollieb216/Music-Genre-Classifier}{}}{Apr 2025}
+    \resumeItemListStart
+        \resumeItem{Implemented and evaluated machine learning models (KNN, Random Forest, SVM) to classify 17,000+ songs into 11 genres using audio features, achieving 50\%+ accuracy with SVM.}
+        \resumeItem{Created heatmaps and clustering plots to analyze feature importance and clustering (K-Means), highlighting key predictors.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+\textbf{Technologies:} Python, Excel, SQL, Microsoft Office Suite, Google Suite \\
+\textbf{Software/Tools:} Pandas, Seaborn, Plotly, Scipy, NLTK, Statsmodels, Scikit-Learn, Github, HoloViz \\
+\textbf{Interests:} Electric Guitar, Bouldering, Audio Engineering, Content Creation, Premier League, Digital
+
+\end{document}
